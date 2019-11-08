@@ -11,21 +11,21 @@ shadow4android
 
 
 
-####explain
+#### explain
 
 这次项目遇到老板要求阴影效果，美工离职，又碰上屏幕适配和shadowLayout阴影框架冲突，网上各种方法试遍了效果都不理想，后来发现的好东西，还是自己动手丰衣足食。
 
 Android在5.0中提出了“高度”的概念，并提供了elevation属性给开发者直接设定z值高度。但其效果与Axure设计图相差甚远：
 ![](/examples/1.webp?raw=true "Shadow with Fill")
 
-##对比Axure的阴影属性和该网站支持的属
+## 对比Axure的阴影属性和该网站支持的属
 ![](/example/2.webp?raw=true "Shadow with Fill")
 ![](/example/3.webp?raw=true "Shadow with Fill")
 从上表可知，使用点九图制作，理论上可以完美实现和Axure设计图一致的阴影效果。
 
-####注意事项
+#### 注意事项
 
-##需要根据屏幕像素等级制作不同分辨率的点九图
+## 需要根据屏幕像素等级制作不同分辨率的点九图
 
 虽然Android设备可以根据自身屏幕像素等级对资源进行缩放，但很多人都有切图的需求。针对不同分辨率需要制作的点九图是不同的，这里举例说明一下：
 ![](/example/4.webp "Shadow with Fill")
